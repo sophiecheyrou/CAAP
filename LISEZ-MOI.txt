@@ -1,0 +1,4 @@
+CAAP V7 — Ouvrir index.html dans un navigateur moderne.
+La carte OpenStreetMap requiert une connexion Internet : les bibliothèques Leaflet et les tuiles sont chargées en ligne. Si elle ne s’affiche pas, vérifier la connexion et les restrictions réseau. La liste des adresses et les liens OSM restent disponibles.
+Les repères initiaux sont indicatifs. Le bouton « Localiser précisément les établissements » géocode les adresses via Nominatim ; les résultats sont mémorisés localement.
+Les données « Mon collège » sont stockées dans ce navigateur uniquement. Les documents joints ne sont pas transférés ni stockés. Aucun partage inter-établissements n’est activé.
