@@ -1,20 +1,24 @@
 {
-  "name": "Collèges actifs, avenir positif — CAAP",
+  "name": "CAAP – Collèges Actifs, Avenir Positif",
   "short_name": "CAAP",
+  "description": "Plateforme du réseau Collèges Actifs, Avenir Positif de l’académie de Paris",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#102b62",
+  "theme_color": "#08BFC6",
   "icons": [
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
