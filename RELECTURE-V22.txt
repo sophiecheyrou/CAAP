@@ -1,0 +1,11 @@
+CAAP V22 — VERSION DE RELECTURE (GitHub Pages)
+
+Corrections :
+- Marie Curie ajouté à la liste ET à la carte interactive (19 collèges).
+- Sélecteur de collège et année scolaire déplacé en tête de « Mon collège », au-dessus des cinq onglets.
+- Avertissement explicite : la sélection du collège est libre dans cette démonstration, elle n’authentifie personne.
+
+ATTENTION : ce n’est PAS la version de production sécurisée. Les saisies locales ne sont pas partagées entre navigateurs et les rôles administrateurs ne sont pas encore authentifiés. Ne pas utiliser pour de vraies données sensibles.
+
+Déploiement GitHub : remplacer les fichiers du dépôt par le contenu du dossier CAAP-main (pas le dossier lui-même).
+Le PHP ne fonctionne pas sur GitHub Pages : la passerelle Grist doit être testée sur un serveur PHP.

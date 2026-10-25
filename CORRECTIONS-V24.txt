@@ -1,0 +1,6 @@
+CAAP V24 — corrections demandées
+- Suppression de l’adresse e-mail de Marie Curie dans les données et dans le rendu de la liste.
+- Nouveau logo PAUSE 5’ sur fond transparent (PNG RGBA).
+- Suppression de l’encart Actions validées du réseau CAAP, de son message d’indisponibilité et du lien Nuage dans Ressources.
+- Suppression du script associé à cet encart dans la démonstration.
+- La synchronisation PHP/Grist reste à intégrer et tester pour la version définitive.

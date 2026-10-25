@@ -1,0 +1,19 @@
+CAAP — PROTOTYPE DE CONNEXION GRIST / PHP / NUAGE
+
+1. Copier le contenu du dossier CAAP-main sur le serveur PHP (pas le dossier parent).
+2. Le site est accessible via index.html ; les actions validées sont chargées depuis api/actions-validees.php.
+3. Dans private/config.php, renseigner la clé API Grist sur le serveur seulement.
+   Ne jamais envoyer ce fichier renseigné dans GitHub ou dans une conversation.
+4. IMPORTANT : le dossier private/ doit être inaccessible en HTTP. Le .htaccess fourni fonctionne sur Apache si AllowOverride est autorisé. Vérifier que https://VOTRE-SITE/private/config.php ne révèle AUCUN contenu, et que les fichiers privés ne sont pas téléchargeables. Si la protection n'est pas garantie, ne PAS renseigner la clé ; déplacer private hors de la racine web et adapter le chemin PHP.
+5. Vérifier la présence de PHP avec extension cURL et l'accès HTTPS sortant à grist.numerique.gouv.fr.
+6. Vérifier la réponse de /api/actions-validees.php : avant configuration, erreur 503 ; après, JSON avec actions validées.
+7. Le serveur interroge Grist à chaque chargement/actualisation (toutes les 2 minutes lorsque la page reste ouverte). Pas de tâche cron requise.
+8. Le lien Nuage pointe vers le dossier public de ressources validées, expiration prévue le 25/10/2027.
+
+LIMITES DE CETTE VERSION :
+- La déclaration et la validation restent dans Grist ; les formulaires locaux de la PWA sont encore des démonstrations localStorage.
+- La valeur Grist College est parfois un identifiant de référence numérique, non le nom du collège : à ajuster après test réel de l'API.
+- La date Grist peut être numérique (timestamp) : à ajuster après test réel.
+- Le serveur doit être testé avant mise en production. Aucun accès authentifié aux fonctions privées de la PWA n'est fourni dans cette étape.
+- La clé API Grist peut lire plus que les actions validées : conserver absolument la protection du dossier privé et la liste blanche côté serveur.
+- Ne pas utiliser cette version pour des données sensibles ni pour des comptes d'établissements avant finalisation des droits.

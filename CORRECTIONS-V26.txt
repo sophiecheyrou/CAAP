@@ -1,0 +1,1 @@
+CAAP V26 : cartes de la page Ressources horizontales, logos a gauche, textes et liens plus grands a droite. Trois logos de meme taille. Les autres pages sont conservees.

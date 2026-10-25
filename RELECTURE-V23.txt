@@ -1,0 +1,14 @@
+CAAP V23 — Version de relecture, 25 octobre 2026
+
+Corrections :
+- Réparation du script inséré accidentellement dans le générateur de bilan imprimable (cause de l'affichage de code brut).
+- Vérification de la syntaxe des neuf blocs JavaScript.
+- Marie Curie maintenu dans la liste et la carte, sans adresse électronique publique.
+- Icône PAUSE 5' ajoutée au dossier (caap-pause5-icon.png).
+- Présentation : retrait de la phrase redondante sur Julien Gagnebien ; dénomination du groupe ressource ; fonction complète de Julien Gagnebien ; mention de Boris Cheval et de l'ENS de Rennes.
+- Agenda public : liste plus compacte, recherche textuelle et filtre temporel.
+
+LIMITES DE CETTE VERSION :
+- La version GitHub Pages reste une démonstration : les données locales et les permissions ne sont pas une authentification réelle.
+- La connexion PHP/Grist exige un serveur PHP configuré et une clé API protégée ; elle ne fonctionne pas sur GitHub Pages.
+- Une vérification visuelle en navigateur après publication est recommandée avant partage aux établissements.
