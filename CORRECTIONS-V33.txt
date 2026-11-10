@@ -1,0 +1,1 @@
+CAAP V33 : ajout de la ressource Défi Noël CAAP (1-24 décembre 2026), logo fourni et lien provisoire. Affichage de quatre ressources en deux colonnes sur grand écran, une colonne sur petit écran. Base V32 conservée.

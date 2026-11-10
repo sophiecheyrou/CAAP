@@ -1,0 +1,1 @@
+V32 : bouton de telechargement de raccourci Internet (Mac .webloc / Windows .url). Ouverture dans le navigateur par defaut. Pas d installation PWA. Une icone CAAP personnalisee ne peut pas etre garantie sur tous les systemes.
