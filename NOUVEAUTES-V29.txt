@@ -1,0 +1,7 @@
+V29 — Installation CAAP sur ordinateur
+- Bouton discret « Installer CAAP sur mon ordinateur » sur l’accueil.
+- Installation native si le navigateur la propose ; sinon instructions Mac Safari, Chrome et Edge.
+- Fenêtre d’aide accessible et fermeture par Échap.
+- Service worker avec accès hors connexion limité aux ressources déjà visitées.
+- Nécessite HTTPS sur le serveur (GitHub Pages et serveur académique HTTPS).
+- La création automatique d’un raccourci sur le bureau dépend du navigateur et du système.
