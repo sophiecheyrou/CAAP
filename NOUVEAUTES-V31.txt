@@ -1,0 +1,1 @@
+CAAP V31 : titre de la fenêtre et nom d’installation réduits à « CAAP ». Cache du service worker actualisé. Pour ouvrir dans le navigateur par défaut, utiliser un raccourci URL plutôt que l’application installée.
