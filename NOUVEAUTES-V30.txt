@@ -1,0 +1,1 @@
+V30 : correction du code JavaScript visible en bas des pages. Le dialogue d’installation et son script sont maintenant hors des chaînes HTML de génération PDF. Installation Mac Chrome : instructions manuelles si le navigateur ne déclenche pas beforeinstallprompt.
